@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shaikh mohammad ali</title> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+
+.main{
+	width: 100%;
+	height: auto;
+	display: flex;
+	position: relative;
+	background-color:  #bdc3c7;
+}
+.left{
+	flex-basis: 20%;
+	/*width: 20%;*/
+	position: relative;
+	height: 100vh;
+	background-color:  #bdc3c7;
+}
+
+.left h3{
+	font-size: 30px; 
+	cursor: pointer;/* 
+	padding-top: 27px;
+	padding-left: 15%;*/
+	position: fixed;
+	top: 4%;
+	cursor: pointer;
+	left: 3%;
+	transform: translate(-3%, -4%);
+	font-family: 'Major Mono Display', monospace;
+}
+.one{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 34%;
+	left: 3%; 
+	transform: translate(-3%, -34%);
+}
+#sk{ 
+	opacity: 0;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.5s;
+	padding-left: 15px;
+	}
+.one h6:hover #sk{
+	opacity: 1; 
+}
+.one i{
+   font-size: 40px;  
+}
+.one i:focus{
+   color: #101010;
+}
+.one h6{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 cursor: pointer;
+	 padding-bottom: 15px;
+}
+.two{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 44%;
+	left: 3%; 
+	transform: translate(-3%, -44%);
+}
+ 
+.two h6:hover #sk{
+	opacity: 1; 
+}
+.two i{
+   font-size: 40px;  
+}
+.two h6{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 padding-bottom: 15px;
+	 cursor: pointer;
+}
+.three{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 54%;
+	left: 3%; 
+	transform: translate(-3%, -54%);
+}
+.three h6:hover #sk{
+	opacity: 1; 
+}
+.three i{
+   font-size: 32px;  
+}
+.three h6{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 cursor: pointer;
+	 padding-bottom: 15px;
+}
+.four{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 64%;
+	left: 3%; 
+	transform: translate(-3%, -64%);
+} 
+.four h6:hover #sk{
+	opacity: 1; 
+}
+.four i{
+   font-size: 33px;  
+}
+.four h6{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 padding-bottom: 15px;
+	 cursor: pointer;
+}
+#github{
+	position: fixed;
+	bottom: 4%;
+	left: 2%;
+	font-size: 24px;
+	cursor: pointer;
+	transform: translate(-3%, -4%);
+}
+#g2{
+	position: fixed;
+	bottom: 4%;
+	left: 4.5%;
+	font-size: 24px;
+	cursor: pointer;
+	transform: translate(-3%, -4%);
+}
+#g3{
+	position: fixed;
+	bottom: 4%;
+	left: 7%;
+	font-size: 24px;
+	cursor: pointer;
+	transform: translate(-3%, -4%);
+}
+::selection{
+	background-color: black;
+	color: #fff;
+}
+.right{
+	flex-basis: 80%; 
+	background-color:  #bdc3c7;
+	padding-left: 8%;
+}
+.audio{
+	position: fixed;
+	top: 7px;
+	right: 10px;
+}
+.audio button{
+	padding: 6px 10px;
+	border-radius: 4px;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	outline: none;
+	font-size: 14px;
+	margin: 5px;
+	font-family: 'Poppins', sans-serif; 
+	font-weight: 400;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.audio button:hover{
+	background-color: #fff;
+	color: #000; 
+}
+.audio button:focus{
+	background-color: #bdc3c7;
+	color: #000;  
+}
+ 
+.footer{
+	position: fixed;
+	bottom: 3%;
+	left: 50%;
+	transform: translate(-50%, -3%); 
+}
+.right h1{
+	font-size: 90px;
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 6%;
+	line-height: 50px;
+	padding-bottom: 30px;
+}
+.right h2{
+	font-size: 45px;
+	letter-spacing: 1px;
+	line-height: 50px;
+	font-family: 'Poppins', sans-serif; 
+}
+.right h3{ 
+	padding-top: 10px;
+	font-size: 28px;
+	line-height: 30px;
+	letter-spacing: 0.5px;
+	font-family: 'Fuggles', cursive;
+}
+svg{
+	position: absolute;
+	top: 83%;
+	left: 70%;
+	transform: translate(-83%, -70%);
+	width: 400px;
+	height: 370px;
+}
+#footer{
+	position: absolute;
+	bottom: 2%;
+	left: 43%;
+	text-align: center;
+	transform: translate(-2%, -43%);
+}
+
+
+
+
+
+.container {
+	position: relative;
+  overflow: hidden;
+	min-height: 15rem;
+}
+.bird {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells.svg);
+  background-size: auto 100%;
+  width: 88px;
+  height: 125px;
+  will-change: background-position;
+  -webkit-animation-name: fly-cycle;
+          animation-name: fly-cycle;
+  -webkit-animation-timing-function: steps(10);
+          animation-timing-function: steps(10);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.bird--one {
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+.bird--two {
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-delay: -0.65s;
+          animation-delay: -0.65s;
+}
+.bird--three {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: -0.22s;
+          animation-delay: -0.22s;
+}
+.bird--four {
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+
+.bird-container {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  -webkit-transform: scale(0) translateX(-10vw);
+          transform: scale(0) translateX(-10vw);
+  will-change: transform;
+  -webkit-animation-name: fly-right-one;
+          animation-name: fly-right-one;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.bird-container--one {
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+.bird-container--two {
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.bird-container--three {
+  -webkit-animation-duration: 14.6s;
+          animation-duration: 14.6s;
+  -webkit-animation-delay: 9.5s;
+          animation-delay: 9.5s;
+}
+.bird-container--four {
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-animation-delay: 10.25s;
+          animation-delay: 10.25s;
+}
+
+@-webkit-keyframes fly-cycle {
+  100% {
+    background-position: -900px 0;
+  }
+}
+
+@keyframes fly-cycle {
+  100% {
+    background-position: -900px 0;
+  }
+}
+@-webkit-keyframes fly-right-one {
+  0% {
+    -webkit-transform: scale(0.3) translateX(-10vw);
+            transform: scale(0.3) translateX(-10vw);
+  }
+  10% {
+    -webkit-transform: translateY(2vh) translateX(10vw) scale(0.4);
+            transform: translateY(2vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    -webkit-transform: translateY(0vh) translateX(30vw) scale(0.5);
+            transform: translateY(0vh) translateX(30vw) scale(0.5);
+  }
+  30% {
+    -webkit-transform: translateY(4vh) translateX(50vw) scale(0.6);
+            transform: translateY(4vh) translateX(50vw) scale(0.6);
+  }
+  40% {
+    -webkit-transform: translateY(2vh) translateX(70vw) scale(0.6);
+            transform: translateY(2vh) translateX(70vw) scale(0.6);
+  }
+  50% {
+    -webkit-transform: translateY(0vh) translateX(90vw) scale(0.6);
+            transform: translateY(0vh) translateX(90vw) scale(0.6);
+  }
+  60% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.6);
+            transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+  100% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.6);
+            transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+}
+@keyframes fly-right-one {
+  0% {
+    -webkit-transform: scale(0.3) translateX(-10vw);
+            transform: scale(0.3) translateX(-10vw);
+  }
+  10% {
+    -webkit-transform: translateY(2vh) translateX(10vw) scale(0.4);
+            transform: translateY(2vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    -webkit-transform: translateY(0vh) translateX(30vw) scale(0.5);
+            transform: translateY(0vh) translateX(30vw) scale(0.5);
+  }
+  30% {
+    -webkit-transform: translateY(4vh) translateX(50vw) scale(0.6);
+            transform: translateY(4vh) translateX(50vw) scale(0.6);
+  }
+  40% {
+    -webkit-transform: translateY(2vh) translateX(70vw) scale(0.6);
+            transform: translateY(2vh) translateX(70vw) scale(0.6);
+  }
+  50% {
+    -webkit-transform: translateY(0vh) translateX(90vw) scale(0.6);
+            transform: translateY(0vh) translateX(90vw) scale(0.6);
+  }
+  60% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.6);
+            transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+  100% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.6);
+            transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+}
+@-webkit-keyframes fly-right-two {
+  0% {
+    -webkit-transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+            transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+  }
+  10% {
+    -webkit-transform: translateY(0vh) translateX(10vw) scale(0.4);
+            transform: translateY(0vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    -webkit-transform: translateY(-4vh) translateX(30vw) scale(0.6);
+            transform: translateY(-4vh) translateX(30vw) scale(0.6);
+  }
+  30% {
+    -webkit-transform: translateY(1vh) translateX(50vw) scale(0.45);
+            transform: translateY(1vh) translateX(50vw) scale(0.45);
+  }
+  40% {
+    -webkit-transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+            transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+  }
+  50% {
+    -webkit-transform: translateY(0vh) translateX(90vw) scale(0.45);
+            transform: translateY(0vh) translateX(90vw) scale(0.45);
+  }
+  51% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.45);
+            transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+  100% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.45);
+            transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+}
+@keyframes fly-right-two {
+  0% {
+    -webkit-transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+            transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+  }
+  10% {
+    -webkit-transform: translateY(0vh) translateX(10vw) scale(0.4);
+            transform: translateY(0vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    -webkit-transform: translateY(-4vh) translateX(30vw) scale(0.6);
+            transform: translateY(-4vh) translateX(30vw) scale(0.6);
+  }
+  30% {
+    -webkit-transform: translateY(1vh) translateX(50vw) scale(0.45);
+            transform: translateY(1vh) translateX(50vw) scale(0.45);
+  }
+  40% {
+    -webkit-transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+            transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+  }
+  50% {
+    -webkit-transform: translateY(0vh) translateX(90vw) scale(0.45);
+            transform: translateY(0vh) translateX(90vw) scale(0.45);
+  }
+  51% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.45);
+            transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+  100% {
+    -webkit-transform: translateY(0vh) translateX(110vw) scale(0.45);
+            transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+.right h1{
+	font-size: 70px; 
+	padding-bottom: 10px;
+}
+.right h2{
+	font-size: 35px; 
+	line-height: 40px;  
+}
+.right h3{  
+	font-size: 24px; 
+}
+ 
+}
+
+
+
+
+@media(max-width: 840px){
+	/*.right{
+		padding-left: 20%;
+	}*/
+.right h1{
+	font-size: 50px; 
+}
+.right h2{
+	font-size: 20px; 
+	line-height: 28px;
+	padding-right: 15%;
+} 
+br{
+	display: none;
+}
+.left h3{
+	font-size: 18px;
+}
+.one i{
+   font-size: 25px;  
+}
+.one{
+	left: 6%;
+	transform: translate(-6%);
+}
+.two i{
+   font-size: 25px;  
+}
+.two{
+	left: 6%;
+	transform: translate(-6%);
+}
+.three i{
+   font-size: 21px;  
+}
+.three{
+	left: 5.5%;
+	transform: translate(-5.5%);
+}
+.four i{
+   font-size: 21px;  
+}
+.four{
+	left: 6%;
+	transform: translate(-6%);
+}
+#github{
+	position: fixed;
+	bottom: 4%;
+	left: 2%;
+	font-size: 18px;
+	cursor: pointer;
+	transform: translate(-6%, -4%);
+} 
+#g2{
+	position: fixed;
+	bottom: 4%;
+	left: 8%;
+	font-size: 18px;
+	cursor: pointer;
+	transform: translate(-3%, -4%);
+}
+#g3{
+	position: fixed;
+	bottom: 4%;
+	left: 14%;
+	font-size: 18px;
+	cursor: pointer;
+	transform: translate(-3%, -4%);
+}
+#sk{
+	font-size: 15px;
+} 
+svg{
+	position: relative;
+	top: 0%;
+	left: 0%;
+	transform: translate(-0%, -0%);
+	width: 320px;
+	height: 320px;
+}
+.one i{
+	display: none;
+}
+#sk{
+	opacity: 1;
+	padding-left: 0;
+}
+.two i{
+	display: none;
+}
+.three i{
+	display: none;
+}
+.four i{
+	display: none;
+}
+#footer{
+	left: 53%; 
+	transform: translate(-53%);
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+	</style>
+</head>
+<body>
+
+ 
+
+
+
+
+<div class="main">
+
+
+	<div class="left">
+		<div class="left-2">
+		<h3>SHAIKH</h3>
+
+	  	<div class="icons"> 
+	  			<div class="one">
+		      <h6><i class="fa fa-home"></i> <span id="sk">Home</span></h6>
+		 </div>
+		 <div class="two">
+		      <h6 onclick="window.location.href='about.html';">
+	  			<i class="fa fa-user-secret"></i> <span id="sk">About</span></h6>
+		 </div>
+		 <div class="three">
+		      <h6 onclick="window.location.href='work2.html';">
+	  			<i class="fa fa-code"></i> <span id="sk">Work</span></h6>
+		 </div>
+		 <div class="four">
+		      <h6 onclick="window.location.href='contact.html';">
+	  			<i class="fa fa-envelope"></i> <span id="sk">Contact</span></h6>
+		 </div>
+
+	  	<i class="fa fa-github" id="github" onclick="window.open('https://github.com/shohel78692')"></i>
+	  	<i class="fa fa-twitter" id="g2" onclick="window.open('https://twitter.com/ShaikhM27790935')"></i>
+	  	   <i class="fa fa-linkedin" id="g3" onclick="window.open('https://www.linkedin.com/in/shaikh-mohammad-ali-3b7526217/')"></i>
+
+
+	</div>
+</div>
+</div>
+
+
+
+
+	<div class="right"> 
+
+
+	  	<h1>Hii!</h1>
+	  	<h2>My name is Shaikh Mohammad Ali</h2>
+	  	<h2>I am a Web Developer and i like<br> to code</h2>
+	  	<h3>Shaikh Mohammad Ali</h3>
+
+
+ 
+
+<div class="audio">
+	<button type="btn" onclick="playMusic()">On <i class="fa fa-music"></i></button>
+	<button type="btn" onclick="pauseMusic()"> Off <i class="fa fa-music"></i></button>
+</div>
+
+ 
+<div class="container"> 
+        <div class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
+        </div>
+
+        <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+
+        <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+
+        <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div>
+    </div>
+
+ 
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="600" viewBox="0 0 700 600">
+    <path id="path5419" d="m 627.55727,563.46269 -34.09265,-47.72968 39.14342,27.7792 z"/>
+    <path id="path4232" d="m 602.30346,512.19745 -8.83884,3.53556 39.14342,27.7792 z"/>
+    <path id="path4236" d="m 602.30346,512.19745 -8.83884,3.53556 -1.26268,-35.35533 z"/>
+    <path id="path4240" d="m 564.92782,487.19618 28.5368,28.53683 -1.26268,-35.35533 z"/>
+    <path id="path4244" d="m 564.92782,487.19618 11.11167,-17.42511 16.16245,10.60661 z"/>
+    <path id="path4248" d="m 564.92782,487.19618 11.11167,-17.42511 -22.72842,-7.3236 z"/>
+    <path id="path4252" d="m 561.13975,454.11368 14.89974,15.65739 -22.72842,-7.3236 z"/>
+    <path id="path4628" d="m 561.13975,454.11368 -6.17169,-8.62832 -1.65699,16.96211 z"/>
+    <path id="path4632" d="m 538.28261,426.25654 16.68545,19.22882 -1.65699,16.96211 z"/>
+    <path id="path4634" d="m 564.92782,487.19618 -70.67404,-28.1394 59.05729,3.39069 z"/>
+    <path id="path4636" d="m 538.49925,425.41047 -44.24547,33.64631 59.05729,3.39069 z"/>
+    <path id="path4644" d="m 538.49925,425.41047 -44.24547,33.64631 15.843,-45.89502 z"/>
+    <path id="path4646" d="m 435.99925,426.83904 58.25453,32.21774 15.843,-45.89502 z"/>
+    <path id="path4648" d="m 435.99925,426.83904 60.75453,-44.56797 13.343,30.89069 z"/>
+    <path id="path4656" d="m 435.99925,426.83904 60.75453,-44.56797 -74.51414,21.60498 z"/>
+    <path id="path4658" d="m 452.42782,338.9819 44.32596,43.28917 -74.51414,21.60498 z"/>
+    <path id="path4660" d="m 452.42782,338.9819 44.32596,43.28917 -10.94271,-34.82359 z"/>
+    <path id="path4662" d="m 511.71353,386.12476 -14.95975,-3.85369 -10.94271,-34.82359 z"/>
+    <path id="path4672" d="m 452.42782,338.9819 -61.38833,0.43203 31.20015,64.46212 z"/>
+    <path id="path4674" d="m 376.71353,406.83904 14.32596,-67.42511 31.20015,64.46212 z"/>
+    <path id="path4676" d="m 376.71353,406.83904 -7.10261,29.00346 52.62872,-31.96645 z"/>
+    <path id="path4678" d="m 435.28496,425.41047 -65.67404,10.43203 52.62872,-31.96645 z"/>
+    <path id="path4688" d="m 376.71353,406.83904 14.32596,-67.42511 -25.22842,-11.25217 z"/>
+    <path id="path4690" d="m 376.71353,406.83904 -52.10261,-4.56797 41.20015,-74.10931 z"/>
+    <path id="path4692" d="m 376.71353,406.83904 -52.10261,-4.56797 44.05729,34.46212 z"/>
+    <path id="path4694" d="m 313.85639,422.55333 10.75453,-20.28226 44.05729,34.46212 z"/>
+    <path id="path4704" d="m 318.1421,328.9819 6.46882,73.28917 41.20015,-74.10931 z"/>
+    <path id="path4706" d="m 318.1421,328.9819 6.46882,73.28917 -48.08556,-20.53788 z"/>
+    <path id="path4708" d="m 313.1421,422.55333 11.46882,-20.28226 -48.08556,-20.53788 z"/>
+    <path id="path4729" d="m 313.1421,422.55333 -48.53118,-12.42512 11.91444,-28.39502 z"/>
+    <path id="path4731" d="m 318.1421,328.9819 -68.53118,-38.85369 26.91444,91.60498 z"/>
+    <path id="path4733" d="m 215.99924,358.26761 33.61168,-68.1394 26.91444,91.60498 z"/>
+    <path id="path4735" d="m 215.99924,358.26761 -2.81689,21.8606 63.34301,1.60498 z"/>
+    <path id="path4743" d="m 264.57067,410.41047 -51.38832,-30.28226 63.34301,1.60498 z"/>
+    <path id="path4747" d="m 264.57067,410.41047 -51.38832,-30.28226 1.20015,17.31927 z"/>
+    <path id="path4749" d="m 264.57067,410.41047 -33.53118,16.8606 -16.65699,-29.82359 z"/>
+    <path id="path4755" d="m 209.57067,408.9819 21.46882,18.28917 -16.65699,-29.82359 z"/>
+    <path id="path4757" d="m 191.71353,396.12476 21.46882,-15.99655 1.20015,17.31927 z"/>
+    <path id="path4776" d="m 191.71353,396.12476 21.46882,-15.99655 -42.37128,5.8907 z"/>
+    <path id="path4778" d="m 191.71353,396.12476 -12.10261,16.14631 -8.79985,-26.25216 z"/>
+    <path id="path4780" d="m 209.57067,408.9819 21.46882,18.28917 -32.37128,3.03355 z"/>
+    <path id="path4799" d="m 191.71353,396.12476 -12.10261,16.14631 12.62872,-1.25216 z"/>
+    <path id="path4801" d="m 215.99924,358.26761 33.61168,-68.1394 -54.51413,26.60498 z"/>
+    <path id="path4818" d="m 197.42781,276.83904 52.18311,13.28917 -54.51413,26.60498 z"/>
+    <path id="path4820" d="m 183.85639,428.9819 -4.24547,-16.71083 12.62872,-1.25216 z"/>
+    <path id="path4822" d="m 183.85639,428.9819 12.89739,1.14631 -4.51414,-19.1093 z"/>
+    <path id="path4824" d="m 209.57068,408.9819 -12.8169,21.14631 -4.51414,-19.1093 z"/>
+    <path id="path4858" d="m 183.85639,428.9819 12.89739,1.14631 4.77157,23.03356 z"/>
+    <path id="path4860" d="m 183.85639,428.9819 -4.24547,-16.71083 -30.22842,17.31927 z"/>
+    <path id="path4862" d="m 183.85639,428.9819 12.1831,38.28917 5.48586,-14.1093 z"/>
+    <path id="path4864" d="m 238.1421,468.26761 -42.10261,-0.99654 5.48586,-14.1093 z"/>
+    <path id="path4866" d="m 238.1421,468.26761 -42.10261,-0.99654 45.48586,16.60499 z"/>
+    <path id="path4878" d="m 183.85639,428.9819 -29.24547,18.64631 -5.22842,-18.03787 z"/>
+    <path id="path4880" d="m 121.35639,448.26761 33.25453,-0.6394 -5.22842,-18.03787 z"/>
+    <path id="path4961" d="m 121.35639,448.26761 33.25453,-0.6394 -27.72842,13.74784 z"/>
+    <path id="path5128" d="m 121.35639,448.26761 5.04024,13.64631 -30.942701,20.53356 z"/>
+    <path id="path5130" d="m 121.35639,448.26761 -41.031188,23.28917 15.128727,10.8907 z"/>
+    <path id="path5136" d="m 197.42781,276.83904 -24.95974,-1.53226 22.62872,41.42641 z"/>
+    <path id="path5138" d="m 197.42781,276.83904 -24.24546,-0.63941 -7.72842,-13.39501 z"/>
+    <path id="path5140" d="m 197.42781,276.83904 52.18311,13.28917 -28.08556,-49.10931 z"/>
+    <path id="path5142" d="m 197.42781,276.83904 -35.49547,-40.81797 59.59302,4.99783 z"/>
+    <path id="path5144" d="m 197.42781,276.83904 -35.31689,-40.81797 3.16444,27.14069 z"/>
+    <path id="path5166" d="m 197.42781,276.83904 -35.31689,-40.81797 3.16444,27.14069 z"/>
+    <path id="path5168" d="m 142.42781,278.9819 30.75454,-2.78227 -7.72842,-13.39501 z"/>
+    <path id="path5170" d="m 142.42781,278.9819 -12.81689,-7.78227 35.84301,-8.39501 z"/>
+    <path id="path5172" d="m 162.42781,235.41047 -32.81689,35.78916 35.84301,-8.39501 z"/>
+    <path id="path5174" d="m 183.1421,213.26761 -21.20976,22.75346 59.59302,4.99783 z"/>
+    <path id="path5176" d="m 183.1421,213.26761 34.50453,2.03917 3.87873,25.71212 z"/>
+    <path id="path5186" d="m 183.1421,213.26761 34.50453,2.03917 -9.6927,-23.57359 z"/>
+    <path id="path5188" d="m 183.1421,213.26761 9.50453,-30.81797 15.3073,9.28355 z"/>
+    <path id="path5190" d="m 183.1421,213.26761 9.50453,-30.81797 -22.54984,15.71212 z"/>
+    <path id="path5200" d="m 174.57067,179.69618 18.07596,2.75346 -22.54984,15.71212 z"/>
+    <path id="path5202" d="m 174.57067,179.69618 -14.0669,2.75346 9.59302,15.71212 z"/>
+    <path id="path5204" d="m 174.57067,179.69618 -14.0669,2.75346 -13.97841,-36.43074 z"/>
+    <path id="path5206" d="m 121.71353,176.83904 38.79024,5.6106 9.59302,15.71212 z"/>
+    <path id="path5208" d="m 121.71353,176.83904 38.79024,5.6106 -32.54984,-14.28788 z"/>
+    <path id="path5258" d="m 121.71353,176.83904 -26.924045,-34.3894 33.164445,25.71212 z"/>
+    <path id="path5260" d="m 238.85639,184.33904 -21.20976,30.96774 -9.6927,-23.57359 z"/>
+    <path id="path5262" d="m 234.57067,166.4819 -41.92404,15.96774 15.3073,9.28355 z"/>
+    <path id="path5270" d="m 234.92782,166.83904 -42.28119,15.6106 11.02159,-40.35931 z"/>
+    <path id="path5272" d="m 234.92782,166.83904 -7.63833,-23.3894 -23.62127,-1.35931 z"/>
+    <path id="path5286" d="m 234.92782,166.83904 -7.63833,-23.3894 12.8073,3.99783 z"/>
+    <path id="path5288" d="m 234.92782,166.83904 -7.63833,-23.3894 -23.62127,-1.35931 z"/>
+    <path id="path5296" d="m 234.92782,166.83904 18.07596,-16.24654 -12.90699,-3.14503 z"/>
+    <path id="path5298" d="m 278.49925,120.41047 -25.49547,30.18203 -12.90699,-3.14503 z"/>
+    <path id="path5306" d="m 234.92782,166.83904 -7.63833,-23.3894 -23.62127,-1.35931 z"/>
+    <path id="path5310" d="m 278.49925,120.41047 -9.42404,-6.60368 -28.97842,33.64068 z"/>
+    <path id="path5316" d="m 278.49925,120.41047 -9.42404,-6.60368 12.80729,-45.645034 z"/>
+    <path id="path5324" d="m 203.14211,141.4819 24.14738,1.96774 -13.26413,-12.0736 z"/>
+    <path id="path5341" d="m 233.14211,133.26761 -5.85262,10.18203 -13.26413,-12.0736 z"/>
+    <path id="path5343" d="m 203.14211,141.4819 -14.42405,-16.60369 25.3073,6.49783 z"/>
+    <path id="path5345" d="m 156.71354,88.267615 32.00452,36.610595 25.3073,6.49783 z"/>
+    <path id="path5357" d="m 233.14211,133.26761 -4.78119,-18.03226 -14.33556,16.14069 z"/>
+    <path id="path5359" d="m 233.14211,133.26761 -4.78119,-18.03226 12.45015,-6.00217 z"/>
+    <path id="path5361" d="m 220.64211,56.481896 7.71881,58.753454 12.45015,-6.00217 z"/>
+  </svg>
+ 
+
+
+ <p id="footer">Copyright @ 2021 Shaikh Mohammad Ali. All rights reserved.
+	</p>
+
+
+
+	  	 
+	</div>
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+<script> 
+	
+  var music = new Audio('sound.webm');
+
+	function playMusic(){ 
+  music.play();
+  }
+
+  function pauseMusic(){ 
+  music.pause();
+  }
+ 
+
+</script>
+
+
+
+</body>
+</html>

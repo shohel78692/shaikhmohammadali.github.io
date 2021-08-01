@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>shaikh/contact</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.about{
+	width: 100%;
+	height: 100vh;
+	background-color: #bdc3c7/*#ecf0f1*/;
+	display: flex;  
+	position: relative;
+}
+.content2{
+	width: 83%;
+	padding-left: 20%; 
+	position: relative;
+	margin-left: auto;
+	background-color: #bdc3c7;
+}
+.content2 h1{
+	font-weight: 500;
+	line-height: 40px;
+	padding-top: 30px;
+	padding-bottom: 80px;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	/*text-align: center;*/
+	padding-left: 31%;
+} 
+.abcd{
+	display: flex;
+	justify-content: space-around;  
+	width: 100%;
+}
+.a{
+	width: 50%;
+}
+.b{
+	width: 50%;
+}
+.a p{
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif; 
+	font-weight: lighter;  
+}
+.a input{
+	background-color: #bdc3c7;
+	border: 1.5px solid #000;
+	font-size: 14px;
+	border-radius: 3px;
+	letter-spacing: 0.5px;
+	width: 50%;
+	outline: none;
+	padding: 10px 0px 10px 10px;
+	margin-bottom: 30px;
+}
+.a textarea{
+	background-color: #bdc3c7;
+	border: 1.5px solid #000;
+	font-size: 14px;
+	border-radius: 3px;
+	letter-spacing: 0.5px;
+	width: 50%;
+	outline: none;
+	margin-bottom: 30px;
+	resize: none;
+	padding: 10px 0px 100px 10px;
+}
+#submit{
+	  padding: 8px 36px;
+	  font-size: 16px;
+	  border: 1.5px solid #000;
+	  outline: none;
+	  background-color: #000;
+	  color: #fff;
+	  cursor: pointer;
+	  margin-bottom: 60px;
+	  transition: 0.5s;
+	  border-radius: 4px;
+	font-family: 'Poppins', sans-serif; 
+}
+#submit:hover{
+	background-color: transparent;
+	color: #000;
+}
+ 
+#foot{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif; 
+	font-weight: 400;
+	text-align: center;
+	margin-top: 10px;
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	transform: translate(-50%, -3%);
+} 
+.b p{
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif; 
+	margin: 10px 10px 30px 10px;
+}
+.b p i{
+	font-size: 30px; 
+	padding-right: 10px;
+}
+
+#hire{
+	  padding: 8px 36px;
+	  font-size: 16px;
+	  border: 1.5px solid #000;
+	  outline: none;
+	  background-color: #000; 
+	  color: #fff;
+	  cursor: pointer;
+	  margin-top: 10px;
+	  border-radius: 4px;
+	  transition: 0.5s;
+	font-family: 'Poppins', sans-serif; 
+}
+#hire:hover{
+	background-color: transparent;
+	color: #000;
+}
+#space{
+	padding-right: 14px;
+}
+#space2{
+	padding-right: 20.5px;
+}
+
+
+
+
+
+@media(max-width: 1200px){
+	.a input{
+		width: 90%;
+	}
+	.a textarea{
+		width: 90%;
+	}
+	.b p{
+	 	font-size: 16px;
+	 }
+}
+
+
+
+
+
+@media(max-width: 800px){ 
+	.about{
+		height: auto;
+	}
+	 .abcd{
+	 	display: block; 
+	 	text-align: left;
+	 }
+	 .a{
+	 	width: 100%;
+	 }
+	 .b{
+	 	width: 100%;
+	 }
+	 .a input{
+	 	width: 90%;
+	 }
+	 .a textarea{
+	 	width: 90%;
+	 }
+	 #hire{
+	 	margin-bottom: 130px;
+	 }
+	 .a p{
+	 	font-size: 17px;
+	 }
+	 .b p i{
+	 	font-size: 20px;
+	 }
+}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	 
+<div class="about">
+	  <div class="navbar"> 
+
+	  	<h3 onclick="window.location.href='index.html';">SHAIKH</h3>
+
+	  	<div class="icons"> 
+	  			<div class="one">
+		      <h6 onclick="window.location.href='index.html';"><i class="fa fa-home"></i> <span id="sk">Home</span></h6>
+		 </div>
+		 <div class="two">
+		      <h6 onclick="window.location.href='about.html';">
+	  			<i class="fa fa-user-secret"></i> <span id="sk">About</span></h6>
+		 </div>
+		 <div class="three">
+		      <h6 onclick="window.location.href='work2.html';">
+	  			<i class="fa fa-code"></i> <span id="sk">Work</span></h6>
+		 </div>
+		 <div class="four">
+		      <h6>
+	  			<i class="fa fa-envelope"></i> <span id="sk">Contact</span></h6>
+		 </div>
+
+	  	<i class="fa fa-github" id="github" onclick="window.open('https://github.com/shohel78692')"></i>
+	  	<i class="fa fa-twitter" id="g2" onclick="window.open('https://twitter.com/ShaikhM27790935')"></i>
+	  	   <i class="fa fa-linkedin" id="g3" onclick="window.open('https://www.linkedin.com/in/shaikh-mohammad-ali-3b7526217/')"></i>
+
+
+	  </div>
+</div>  
+
+	  <div class="content2">
+
+	  	 <h1>Contact</h1>
+
+      
+      <div class="abcd">
+
+      	<div class="a">
+      		 <p>Name</p>
+      		 <input type="text" placeholder="Fullname">
+
+      		 <p>Email</p>
+      		 <input type="text" placeholder="Email">
+
+      		 <p>Message</p> 
+      		 <textarea></textarea><br>
+        
+             <a  href="mailto:shaikhmohammadali267@gmail.com">
+      		 <button type="btn" id="submit">Submit</button></a>
+
+      	</div>
+
+
+
+      	<div class="b">
+      		<p><i class="fa fa-phone-square" id="space"></i> (+91)  8917515188</p>
+
+      		<p><i class="fa fa-comments"></i> shaikhmohammadali267@gmail.com</p>
+
+      		<p><i class="fa fa-thumb-tack" id="space2"></i> India-Odisha-Sundargarh</p>
+
+      		<a href="mailt:shaikhmohammadali267@gmail.com"> <button type="btn" id="hire" onclick="window.open('Ali.pdf')">Hire me</button></a>
+
+
+      	</div>
+
+      </div>
+
+ 
+
+
+ 
+
+
+ 
+ 
+	<p id="foot">Copyright @ 2021 Shaikh Mohammad Ali. All rights reserved.
+	</p>
+
+	  
+
+	</div>
+</div> 
+
+ 
+
+
+</body>
+</html>

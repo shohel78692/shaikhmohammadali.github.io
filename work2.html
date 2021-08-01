@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>shaikh/Work</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.about{
+	width: 100%;
+	height: auto;
+	background-color: #bdc3c7/*#ecf0f1*/;
+	display: flex;  
+	position: relative;
+}
+.content2{
+	width: 83%;
+	padding-left: 20%; 
+	position: relative;
+	margin-left: auto;
+	background-color: #bdc3c7;
+}
+.content2 h1{
+	font-weight: 500;
+	line-height: 40px;
+	padding-top: 30px;
+	padding-bottom: 80px;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	/*text-align: center;*/
+	padding-left: 35%;
+}
+.content2 h2{
+	font-size: 28px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif; 
+	padding-left: 3%;
+	margin-top: 80px;
+	padding-bottom: 10px;
+}
+#new{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif; 
+	padding-left: 3%; 
+	padding-bottom: 50px;
+}
+.row{
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	width: 100%;
+}
+ 
+.rowf1{
+   width: 50%;
+	margin: 20px 13px 0px 13px;
+   position: relative;
+}
+.rowf1 img{
+	width: 100%;  
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	height: 330px; 
+	cursor: pointer; 
+			 transition: 0.5s; 
+} 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99.5%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.rowf1:hover .overlay{
+  opacity: 1;
+}
+.rowf2{
+	width: 50%;
+	margin: 20px 13px 0px 13px;
+	position: relative;
+}
+.rowf2 img{
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	height: 330px;
+				 transition: 0.5s; 
+	cursor: pointer;
+}
+.rowf2:hover .overlay2{
+  opacity: 1;
+}
+.row2{
+	margin-top: 50px;
+	display: flex;
+	width: 100%; 
+	margin-bottom: 40px;
+	justify-content: space-between; 
+} 
+.row1f1{
+	width: 50%;
+	margin: 20px 13px;
+	position: relative;
+} 
+.row1f1 img{
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	height: 330px;
+				 transition: 0.5s; 
+	cursor: pointer;
+}
+.row1f1:hover .overlay3{
+  opacity: 1;
+}
+.row2f2 img{
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	height: 330px;
+				 transition: 0.5s; 
+	cursor: pointer;
+}
+.row2f2:hover .overlay4{
+  opacity: 1;
+}
+.row2f2{
+	width: 50%;
+	margin: 20px 13px;
+	position: relative;
+}  
+#foot{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif; 
+	font-weight: 400;
+	padding-left: 25%; 
+	margin-bottom: 30px;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: 400;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content2 h4{
+	font-size: 28px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif; 
+	padding-bottom: 30px; 
+	padding-left: 2%;
+}
+
+.five{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.five p{
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 15px;
+}
+.a1{
+	margin: 10px;
+}
+.o2{
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+.o4{
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+.a2{
+	margin: 10px;
+	padding-right: 20%;
+}
+
+
+
+.progress {
+	background-color: #d8d8d8;
+ 	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done {
+	background: black;
+ 	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: bolder;
+}
+
+.progress2 {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done2 {
+	background: black;
+ 	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: bolder;
+}
+
+
+.progress3 {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done3 {
+	background: black;
+ 	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: bolder;
+}
+
+
+.progress4 {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done4 {
+	background: black;
+ 	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: bolder;
+}
+.photo{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	position: fixed; 
+	top: 0%;
+	z-index: 10;
+	display: none;
+}
+ 
+.photo-f2 img{
+	width: 30px; 
+	cursor: pointer; 
+	position: absolute;
+	top: 30px;
+	right: 22.5%;
+	transform: translate(-30px, -22.5%);
+}
+.photo-img img{
+	width: 60%; 
+	height: 65%;
+  margin-left: 10%; 
+}
+
+.photo h1{ 
+	text-align: left; 
+	font-size: 28px;
+	letter-spacing: 0px;
+	line-height: 0px;  
+	font-family: sans-serif;
+}
+.photo p{ 
+  font-size: 17px;
+	line-height: 23px;
+	width: 60%;
+	padding-left: 10%;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+.photo strong{ 
+	font-size: 18px;
+	line-height: 23px; 
+	position: absolute;
+	top: 10%;
+	left: 38%;
+	font-family: sans-serif;
+}
+.photo strong i{
+	cursor: pointer;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+.pic{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	position: fixed; 
+	top: 0%;
+	z-index: 10;
+	display: none;
+}
+.pic-f{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.pic-f1 i{
+	font-size: 30px; 
+	cursor: pointer;
+	position: absolute;
+	top: 18px;
+	left: 44px;
+}
+.pic-f2 img{
+	width: 30px; 
+	cursor: pointer; 
+	position: absolute;
+	top: 18px;
+	right: 44px;
+}
+.pic-img img{
+	width: 25%; 
+	height: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.pic{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	position: fixed; 
+	top: 0%;
+	z-index: 10;
+	display: none;
+}
+.pic-f{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.pic-f1 i{
+	font-size: 30px;  
+	position: absolute;
+	top: 18px;
+	left: 44px;
+}
+.pic-f2 img{
+	width: 30px; 
+	cursor: pointer; 
+	z-index: 10;
+	position: absolute;
+	top: 30px;
+	right: 22.5%;
+	transform: translate(-30px, -22.5%);
+}
+.pic-img img{
+	width: 60%; 
+	height: 65%;
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	transform: translate(-25%, -75%);
+}
+.pic h1{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	font-size: 30px;
+	padding-right: 10%;
+	line-height: 35px;
+	font-family: sans-serif;
+}
+.pic p{
+	position: absolute;
+	top: 13%;
+	left: 38%;
+	transform: translate(-38%, -13%);
+  font-size: 18px;
+	line-height: 25px;
+	padding-right: 10%;
+	font-family: sans-serif;
+}
+.pic strong{
+	position: absolute;
+	top: 22%;
+	left: 42%; 
+	transform: translate(-42%, -22%);
+	font-size: 18px;
+	line-height: 23px;
+	font-family: sans-serif;
+}
+.pic strong i{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+	.row{
+	 	display: block;
+	 }
+	 .row2{
+	 	display: block;
+	 }
+	.rowf1{ 
+	 	margin: 20px 10px;
+	 	width: 75%;
+	 }
+	 .rowf2{ 
+	 	margin: 20px 10px;
+	 	width: 75%;
+	 }
+	 .row1f1{ 
+	 	margin: 20px 10px;
+	 	width: 75%;
+	 }
+	 .row2f2{ 
+	 	margin: 20px 10px;
+	 	width: 75%;
+	 }
+	 .pic-img img{
+	width: 60%; 
+	height: 40%;
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	transform: translate(-25%, -60%);
+}
+.progress{
+	width: 235px;
+	height: 25px; 
+}
+.progress2{
+	width: 235px;
+	height: 25px; 
+}
+.progress3{
+	width: 235px;
+	height: 25px; 
+}
+.progress4{
+	width: 235px;
+	height: 25px; 
+}
+.progress-done{
+	font-size: 14px;
+	font-weight: lighter;
+}
+.progress-done2{
+	font-size: 14px;
+	font-weight: lighter;
+}
+.progress-done3{
+	font-size: 14px;
+	font-weight: lighter;
+}
+.progress-done4{
+	font-size: 14px;
+	font-weight: lighter;
+}
+.pic p{ 
+  font-size: 15px; 
+}
+.pic strong{
+	position: absolute;
+	top: 27%;
+	left: 42%; 
+	transform: translate(-42%, -27%);
+	font-size: 18px;
+	line-height: 23px;
+	font-family: sans-serif;
+}
+
+
+}
+
+
+
+
+
+@media(max-width: 800px){ 
+	.photo h1{ 
+		position: absolute;
+		top: 5%;
+		right: 19%;
+		transform: translate(-19%, -5%);
+	text-align: left; 
+	font-size: 28px;
+	letter-spacing: 0px;
+	line-height: 33px;  
+	font-family: sans-serif;
+}
+.photo p{ 
+  font-size: 14px; 
+	line-height: 23px;
+	width: 60%;
+	padding-left: 10%;
+	margin-top: 150px;
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+
+.photo strong{ 
+	font-size: 18px;
+	line-height: 23px; 
+	position: absolute;
+	top: 15%;
+	left: 33%;
+	transform: translate(-15%, -33%);
+	font-family: sans-serif;
+}
+
+	 .abcd{
+	 	display: block;
+	 	width: 92%;
+	 	text-align: initial;
+	 }
+	 .row{
+	 	display: block;
+	 }
+	 .row2{
+	 	display: block;
+	 }
+	 .rowf1{
+	 	width: 95%;
+	 	margin: 0px 0px 40px 0px;
+	 }
+	 .rowf2{
+	 	width: 95%;
+	 	margin: 0px 0px 40px 0px;
+	 }
+	 .row1f1{
+	 	width: 95%;
+	 	margin: 0px 0px 80px 0px; 
+	 }
+	 .row2f2{
+	 	width: 95%;
+	 	margin: 0px 0px 80px 0px; 
+	 }
+	 .row1f1 img{ 
+	height: 300px; 
+}
+.row2f2 img{ 
+	height: 300px;
+}
+.rowf1 img{
+	height: 300px;
+}
+.rowf2 img{
+	height: 300px;
+}
+.a p{ 
+	padding-left: 16%;
+}
+.b p{ 
+	padding-left: 18%;
+}
+.progress{
+	width: 175px;
+}
+.progress2{
+	width: 175px;
+}
+.progress3{
+	width: 175px;
+}
+.progress4{
+	width: 175px;
+}
+.o2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.o4{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+ 
+
+
+}
+
+
+
+
+@media(max-width: 600px){
+  .rowf1 img{
+  	height: 200px;
+  	border-radius: 8px;
+  }
+  
+   .rowf2 img{
+  	height: 200px;
+  	border-radius: 8px;
+  }
+   
+   .row1f1 img{
+  	height: 200px;
+  	border-radius: 8px;
+  }
+   
+   .row2f2 img{
+  	height: 200px;
+  	border-radius: 8px;
+  }
+  .overlay{
+  	border-radius: 8px;
+  }
+  .overlay2{
+  	border-radius: 8px;
+  }
+.overlay3{
+  	border-radius: 8px;
+  }
+  .overlay4{
+  	border-radius: 8px;
+  }
+  .pic-img img{
+	width: 70%; 
+	height: 25%; 
+}
+.progress{
+	width: 80%;
+}
+.progress2{
+	width: 80%;
+}
+.progress3{
+	width: 100%;
+}
+.progress4{
+	width: 100%;
+}
+ 
+.five{
+	display: block;
+}
+.pic h1{
+	left: -15%;
+	font-size: 24px;/*
+	transform: translate(0%);*/
+}
+.pic p{
+	padding-right: 5%;
+}
+.pic strong{
+	top: 32%;
+	left: 37%;
+	transform: translate(-32%, -37%);
+}
+
+
+
+
+
+}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="about">
+ 
+	  <div class="navbar"> 
+
+	  	<h3 onclick="window.location.href='index.html';">SHAIKH</h3>
+
+	  	<div class="icons"> 
+	  			<div class="one">
+		      <h6 onclick="window.location.href='index.html';"><i class="fa fa-home"></i> <span id="sk">Home</span></h6>
+		 </div>
+		 <div class="two">
+		      <h6 onclick="window.location.href='about.html';">
+	  			<i class="fa fa-user-secret"></i> <span id="sk">About</span></h6>
+		 </div>
+		 <div class="three">
+		      <h6>
+	  			<i class="fa fa-code"></i> <span id="sk">Work</span></h6>
+		 </div>
+		 <div class="four">
+		      <h6 onclick="window.location.href='contact.html';">
+	  			<i class="fa fa-envelope"></i> <span id="sk">Contact</span></h6>
+		 </div>
+
+	  	<i class="fa fa-github" id="github" onclick="window.open('https://github.com/shohel78692')"></i>
+	  	<i class="fa fa-twitter" id="g2" onclick="window.open('https://twitter.com/ShaikhM27790935')"></i>
+	  	   <i class="fa fa-linkedin" id="g3" onclick="window.open('https://www.linkedin.com/in/shaikh-mohammad-ali-3b7526217/')"></i>
+
+
+	  </div>
+</div>  
+
+	  <div class="content2">
+
+	  	 <h1>Work</h1>
+
+
+
+	  <h4>My Skills</h4>
+
+ 
+<div class="five">
+
+<div class="a1">
+<div class="o1">
+	<p>HTML</p>
+<div class="progress"> 
+	<div class="progress-done" data-done="95">
+		95%
+	</div>
+</div>
+
+<div class="o2">
+	<p>CSS</p>
+<div class="progress2"> 
+	<div class="progress-done2" data-done="93">
+		93%
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="a2">
+<div class="o3">
+	<p>BOOTSTRAP</p>
+<div class="progress3"> 
+	<div class="progress-done3" data-done="88">
+		88%
+	</div>
+</div>
+</div>
+
+<div class="o4">
+	<p>JAVASCRIPT</p>
+<div class="progress4"> 
+	<div class="progress-done4" data-done="79">
+		79%
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+	  <h2>My latest works</h2>
+	  <p id="new">It is a drop in a ocean. These are my few works.<br> If you want to see my whole work then visit Github.</p>
+
+	  <div class="row">
+
+	  	<div class="rowf1">
+	  		<img src="8.png">
+	  		<div class="overlay" onclick="show4()">
+	  			<div class="text">PERSONAL WEBSITE</div>
+	  		</div>
+	  	</div>
+
+	  	<div class="rowf2">
+	  		 <img src="5.png">
+	  		<div class="overlay2" onclick="show3()">
+	  			<div class="text">REGISTRATION FORM</div>
+	  		</div>
+	  	</div> 
+
+	  </div>
+
+
+
+	  <div class="row2">
+
+	  	<div class="row1f1">
+
+	  		<img src="3.png">
+	  		<div class="overlay3" onclick="show2()">
+	  			<div class="text">PERSONAL WEBSITE</div>
+	  		</div>
+	  	</div>
+
+	  	<div class="row2f2">
+
+	  		<img src="4.png">
+	  		<div class="overlay4" onclick="show1()">
+	  			<div class="text">ANIMATED BOOK</div>
+	  		</div>
+	  	</div>
+
+	  </div> 
+
+ 
+
+
+ 
+ 
+	<p id="foot">Copyright @ 2021 Shaikh Mohammad Ali. All rights reserved.
+	</p>
+
+
+
+
+<div class="pic" id="pic">
+	<div class="pic-f">
+
+		<div class="pic-f1"> 
+		</div>
+		<div class="pic-f2">
+			<img src="cross.png" onclick="hide4()">
+		</div>
+	</div>
+<div class="pic-img">
+	<img src="8.png">
+</div>
+<h1>Personal Website</h1>
+<p>The website you look, is a inspired work by me from DEJAN WORKS. I made it from HTML, CSS, JAVACSRIPT. It is a beautiful website with mobile friendly.The words seems to be less to praise it.</p>
+<strong>Visit this on: <i class="fa fa-github" onclick="window.open('https://github.com/shohel78692/A-Black')"></i></strong> 
+
+
+</div>
+
+
+<!-- 
+<div class="photo" id="photo">
+	<div class="photo-f2">
+			<img src="cross.png" onclick="hide4()">
+		</div>
+		<h1>Personal Website</h1>
+<p>The website you look, is a inspired work by me from DEJAN WORKS. I made it from HTML, CSS, JAVACSRIPT. It is a beautiful website with mobile friendly.The words seems to be less to praise it.</p>
+<strong>Visit this on: <i class="fa fa-github" onclick="window.open('https://github.com/shohel78692/A-Black')"></i></strong>
+
+<div class="photo-img">
+	<img src="8.png">
+</div>
+
+</div>	 -->  	
+	   
+
+
+
+<div class="pic" id="pic2">
+	<div class="pic-f">
+
+		<div class="pic-f1"> 
+		</div>
+		<div class="pic-f2">
+			<img src="cross.png" onclick="hide3()">
+		</div>
+	</div>
+<div class="pic-img">
+	<img src="5.png">
+</div>
+<h1>Registration Form</h1>
+<p>The website you look, is a not a inspired or copied work. I made it from HTML, CSS, JAVACSRIPT. It is a beautiful website with mobile friendly.The words seems to be less to praise it.</p>  
+<strong>Visit this on: <i class="fa fa-github" onclick="window.open('https://github.com/shohel78692/Rise-up')"></i></strong> 
+
+
+</div>
+	   
+
+
+<div class="pic" id="pic3">
+	<div class="pic-f">
+
+		<div class="pic-f1"> 
+		</div>
+		<div class="pic-f2">
+			<img src="cross.png" onclick="hide2()">
+		</div>
+	</div>
+<div class="pic-img">
+	<img src="3.png">
+</div>
+<h1>Personal Website</h1>
+<p>The website you look, is a inspired work by me from NICOL RIDER. I made it from HTML, CSS, JAVACSRIPT. It is a beautiful website with mobile friendly.The words seems to be less to praise it.</p>  
+<strong>Visit this on: <i class="fa fa-github" onclick="window.open('https://github.com/shohel78692/A-rider')"></i></strong> 
+
+
+</div>
+	  	 
+
+
+<div class="pic" id="pic4">
+	<div class="pic-f">
+
+		<div class="pic-f1"> 
+		</div>
+		<div class="pic-f2">
+			<img src="cross.png" onclick="hide1()">
+		</div>
+	</div>
+<div class="pic-img">
+	<img src="4.png">
+</div>
+<h1>Animated Book</h1>
+<p>The website you look, is a not a inspired or copied work. I made it from HTML, CSS, JAVACSRIPT. It is a beautiful website with mobile friendly.The words seems to be less to praise it.</p> 
+<strong>Visit this on: <i class="fa fa-github" onclick="window.open('https://github.com/shohel78692/website-of-shaikh')"></i></strong> 
+
+
+</div>
+	  	 
+
+ 
+</div> 
+</div>
+
+
+<script>   
+const progress = document.querySelector('.progress-done');
+
+progress.style.width = progress.getAttribute('data-done') + '%';
+progress.style.opacity = 1;
+
+
+
+const progress2 = document.querySelector('.progress-done2');
+
+progress2.style.width = progress2.getAttribute('data-done') + '%';
+progress2.style.opacity = 1;
+
+
+
+const progress3 = document.querySelector('.progress-done3');
+
+progress3.style.width = progress3.getAttribute('data-done') + '%';
+progress3.style.opacity = 1;
+
+
+
+const progress4 = document.querySelector('.progress-done4');
+
+progress4.style.width = progress4.getAttribute('data-done') + '%';
+progress4.style.opacity = 1;
+
+
+
+
+
+var pic2 = document.getElementById('pic2');
+
+function hide3(){
+	pic2.style.display = "none"; 
+}
+
+function show3(){
+	pic2.style.display = "block";
+}
+
+
+
+var pic3 = document.getElementById('pic3');
+
+function hide2(){
+	pic3.style.display = "none"; 
+}
+
+function show2(){
+	pic3.style.display = "block";
+}
+
+
+
+var pic4 = document.getElementById('pic4');
+
+function hide1(){
+	pic4.style.display = "none"; 
+}
+
+function show1(){
+	pic4.style.display = "block";
+}
+
+
+
+var pic = document.getElementById('pic');
+
+function hide4(){
+	pic.style.display = "none"; 
+}
+
+function show4(){
+	pic.style.display = "block";
+}
+
+
+
+</script>
+
+
+</body>
+</html>

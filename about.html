@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>shaikh/About</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.about{
+	width: 100%;
+	height: auto;
+	background-color: #bdc3c7/*#ecf0f1*/;
+	display: flex;  
+	position: relative;
+}
+.content2{
+	width: 83%;
+	padding-left: 20%; 
+	position: relative;
+	margin-left: auto;
+	background-color: #bdc3c7;
+}
+.content2 h1{
+	font-weight: 500;
+	line-height: 40px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	/*text-align: center;*/
+	padding-left: 33%; 
+}
+.content2 h2{
+	font-size: 28px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	/*text-align: center;*/
+	padding-left: 27%;
+	padding-bottom: 30px;
+}
+.row{
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	width: 100%;
+}
+.row > div{
+	margin: 20px;
+}
+.rowf1{
+   width: 50%;
+}
+.row img{
+	width: 360px;
+	height: 500px;
+}
+.rowf2{
+	width: 50%;
+}
+.rowf2 p{
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 20px;
+}
+.rowf2 blockquote{
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px; 
+}
+.row2{
+	margin-top: 100px;
+	display: flex;
+	width: 100%; 
+	margin-bottom: 40px;
+	justify-content: space-between; 
+}
+.row1f1 p{
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px; 
+	padding-top: 10px;
+}
+.row1f1 p span{
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-family: 'Poppins', sans-serif; 
+}
+.row1f1 blockquote span{
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-family: 'Poppins', sans-serif; 
+}
+.row1f1 blockquote{
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px; 
+	padding-top: 9px;
+}
+.row1f1{
+	width: 50%;
+	margin: 10px;
+}
+.row1f1 h3{
+	font-family: 'Poppins', sans-serif; 
+   font-size: 24px;
+   font-weight: 600;
+   padding-bottom: 18px;
+   letter-spacing: 1pxs;
+}
+.row2f2 h3{
+	font-family: 'Poppins', sans-serif; 
+	font-size: 24px;
+	font-weight: 600;
+	padding-bottom: 18px;
+	letter-spacing: 1px;
+}
+.row2f2{
+	width: 50%;
+	margin: 10px;
+}
+.row2f2 p{
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px; 
+	padding-top: 9px;
+}
+#para3{
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px; 
+	padding-bottom: 60px;
+	padding-top: 20px;
+	padding-right: 10%;
+}
+#para3 span{
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: pointer;
+}
+#para2{
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px;  
+	padding-right: 10%;
+}
+#para1{
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px;
+	padding-bottom: 20px;  
+	padding-right: 10%;
+}
+#foot{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif; 
+	font-weight: 400;
+	padding-left: 25%;
+	/*text-align: center;*/
+	padding-bottom: 30px;
+}
+#my{
+	  padding: 8px 36px;
+	  font-size: 16px;
+	  border: 1.5px solid #000;
+	  outline: none;
+	  background-color: #000;
+	  color: #fff;
+	  cursor: pointer;
+	  margin-bottom: 60px;
+	  transition: 0.5s;
+	  border-radius: 4px;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	font-family: 'Poppins', sans-serif; 
+}
+#my:hover{
+	background-color: transparent;
+	color: #000;
+}
+ 
+
+
+ 
+
+@media(max-width: 1200px){
+	.content2 h1{ 
+	font-size: 27px; 
+}
+.content2 h2{
+	font-size: 20px; 
+}
+.row2{
+	display: block;
+}
+ 
+}
+
+
+
+
+
+
+
+
+@media(max-width: 800px){
+.row{
+	display: block; 
+}
+.row > div{
+	margin: 0px;
+}
+ 
+.row1f1{
+	width: 85%;
+}
+.row2f2{
+	width: 85%;
+}
+.rowf1{
+   width: 100%;
+}
+.row img{
+	width: 80%;
+	height: 480px;
+}
+.rowf2{
+	width: 100%;
+}
+#para{
+	font-size: 15px;  
+}
+.rowf2 p{
+	font-size: 15px; 
+}
+.rowf2 blockquote{
+	font-size: 14px; 
+}
+.row1f1 p{
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.5px; 
+	padding-top: 10px;
+}
+.row1f1 p span{
+	font-size: 15px;  
+}
+.row1f1 blockquote span{
+	font-size: 15px; 
+}
+.row1f1 blockquote{
+	font-size: 14px; 
+}
+.row1f1 h3{
+	font-size: 21.5px;
+}
+.row2f2 h3{
+	font-size: 21.5px;
+}
+.row2f2 p{
+	font-size: 15px;  
+}
+#para1{
+	font-size: 15px;
+}
+#para2{
+	font-size: 15px;
+}
+#para3{
+	font-size: 15px;
+}
+
+
+}
+
+
+@media(max-width: 600px){
+.row img{
+	width: 95%;
+	height: 480px;
+}
+}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="about">
+ 
+	  <div class="navbar"> 
+
+	  	<h3 onclick="window.location.href='index.html';">SHAIKH</h3>
+
+	  	<div class="icons"> 
+	  			<div class="one">
+		      <h6 onclick="window.location.href='index.html';"><i class="fa fa-home"></i> <span id="sk">Home</span></h6>
+		 </div>
+		 <div class="two">
+		      <h6>
+	  			<i class="fa fa-user-secret"></i> <span id="sk">About</span></h6>
+		 </div>
+		 <div class="three">
+		      <h6 onclick="window.location.href='work2.html';">
+	  			<i class="fa fa-code"></i> <span id="sk">Work</span></h6>
+		 </div>
+		 <div class="four">
+		      <h6 onclick="window.location.href='contact.html';">
+	  			<i class="fa fa-envelope"></i> <span id="sk">Contact</span></h6>
+		 </div>
+
+	  	<i class="fa fa-github" id="github" onclick="window.open('https://github.com/shohel78692')"></i>
+	  	<i class="fa fa-twitter" id="g2" onclick="window.open('https://twitter.com/ShaikhM27790935')"></i>
+	  	   <i class="fa fa-linkedin" id="g3" onclick="window.open('https://www.linkedin.com/in/shaikh-mohammad-ali-3b7526217/')"></i>
+
+
+	  </div>
+</div>  
+
+	  <div class="content2">
+
+	  	 <h1>ABOUT ME</h1>
+	  <h2>Let me Introduce myself</h2>
+
+	  <div class="row">
+	  	<div class="rowf1">
+	  		<img src="f2.jpg">
+	  	</div>
+	  	<div class="rowf2">
+	  		<p>Name :</p>
+	  		<blockquote>Shaikh Mohammad Ali</blockquote>
+
+	  		<p>Age :</p>
+	  		<blockquote>18 years</blockquote>
+
+	  		<p>Location :</p>
+	  		<blockquote>India-Odisha-Sundargarh</blockquote>
+	  		<button type="btn" id="my" onclick="window.open('Ali.pdf')">My Resume</button>
+	  	</div>
+	  </div>
+
+	  <div class="row2">
+	  	<div class="row1f1">
+	  		<h3>Education</h3>
+	  		<p><span>School</span> : St. Theresa English School Sundargarh</p>
+	  		<p><span>College</span> : Kendriya Vidyalaya Sundargarh</p>
+         
+          <blockquote> <span>Learned Coding from :</span>  
+          Codecademy, Udemy,<br> Pluralsight, Freecodecamp, Rehearse practice, etc.<blockquote></blockquote> 
+
+	  		<p></p>
+	  	</div>
+
+	  	<div class="row2f2">
+	  		<h3>Interested on</h3>
+
+	  		<p>React JS</p>
+	  		<p>Javacsript</p>
+	  		<p>Backend works</p>
+	  		<p>Coding</p>
+
+
+	  	</div>
+
+	  </div>
+
+<blockquote id="para1"> 
+ I am shaikh Mohammad Ali, I'm a web developer living in Odisha, India . I create beautiful , responsive and functional websites .The primary area of my interest is front-end. My passion for code has always been there.
+</blockquote>
+
+<blockquote id="para2"> I strive to always learn and widen my view along with writing clean code. I have a diverse set of skills, when not in computer coding, I'm a game addict.i have qualified many tests in coding language on many websites.
+</blockquote>
+<blockquote id="para3">
+ My website gives clear navigation. i have uploaded all my work on github, and i have linkedin profile also. If you are satistfied with my work, then please reach out to me. <span onclick="window.open('Ali.pdf')">Hire me <i class="fa fa-arrow-right"></i>
+</span>
+</blockquote>
+ 
+	<p id="foot">Copyright @ 2021 Shaikh Mohammad Ali. All rights reserved.
+	</p>
+
+	  	
+	  </div>
+	</div>
+ 
+
+</body>
+</html>
+
+
+<!-- Hii everyone my name is shaikh mohammad ali. i have started coding for more than 2+ years.now i am studying higher secondary school. i make the website as
+ per user specifications. i belong from odisha sundargarh. -->
